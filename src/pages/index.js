@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import Card from '@site/src/components/HomepageFeatures/Card'
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -15,14 +16,20 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        
+        <p className="hero__subtitle">
+          loreme is a great theme for people to create their own themes with their own styles
+          and designs. Lorem ipsum dolor sit amet, consectetur adip non just  sed diam nonum
+          modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+        </p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--md"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Dr. Python Documentation - 5min ⏱️
           </Link>
         </div>
+      {/* <Card/> */}
       </div>
     </header>
   );
