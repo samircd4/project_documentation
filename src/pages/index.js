@@ -24,9 +24,9 @@ function HomepageHeader() {
         </p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--md"
+            className="button button--secondary button--lg"
             to="/docs/intro">
-            Dr. Python Documentation - 5min ⏱️
+            Check out the Docs in 5min ⏱️
           </Link>
         </div>
       {/* <Card/> */}
