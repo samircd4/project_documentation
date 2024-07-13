@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Dr. Python',
   tagline: 'Documentaion is cool',
-  favicon: 'img/favicon.png',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
   url: 'https://projects-docs.netlify.app',
@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'Documentaion',
-                to: '/docs/intro',
+                to: '/docs/HTML_Learning_Plan',
               },
             ],
           },
