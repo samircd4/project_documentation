@@ -59,12 +59,19 @@ const config = {
       }),
     ],
   ],
-
+  // themes: ['@docusaurus/theme-search-algolia'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      algolia: {
+        apiKey: '179f601a3c3ce76f08854bb323d46dcf',
+        appId: '00DKW8T4ZL',
+        indexName: 'samircd4',
+        // Optional: see docsearch.js docs for possible options
+        contextualSearch: true,
+      },
       navbar: {
         title: 'Dr. Python',
         logo: {
